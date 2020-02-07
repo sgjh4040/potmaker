@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/potmaker/static/css/main.d1b05096.chunk.css",
+    "main.js": "/potmaker/static/js/main.0cf7f262.chunk.js",
+    "main.js.map": "/potmaker/static/js/main.0cf7f262.chunk.js.map",
+    "runtime-main.js": "/potmaker/static/js/runtime-main.9fe1c7e5.js",
+    "runtime-main.js.map": "/potmaker/static/js/runtime-main.9fe1c7e5.js.map",
+    "static/js/2.57ec1e0b.chunk.js": "/potmaker/static/js/2.57ec1e0b.chunk.js",
+    "static/js/2.57ec1e0b.chunk.js.map": "/potmaker/static/js/2.57ec1e0b.chunk.js.map",
+    "index.html": "/potmaker/index.html",
+    "precache-manifest.4de7da552b070a95de7a622c4167af65.js": "/potmaker/precache-manifest.4de7da552b070a95de7a622c4167af65.js",
+    "service-worker.js": "/potmaker/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/potmaker/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.57ec1e0b.chunk.js.LICENSE.txt": "/potmaker/static/js/2.57ec1e0b.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/potmaker/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9fe1c7e5.js",
+    "static/js/2.57ec1e0b.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.0cf7f262.chunk.js"
+  ]
+}
