@@ -1,25 +1,24 @@
 import React from 'react';
+import { HashRouter as Router, Route } from "react-router-dom";
+import styled, { ThemeProvider } from "styled-components";
 import logo from './logo.svg';
 import './App.css';
+import Main from './Routes/Main/main';
+
+const Wrapper = styled.div`
+  position: relative;
+  margin: 40px auto;
+  width: 100%;
+  /* max-width: ${props => props.theme.maxWidth}; */
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Wrapper>
+      <Router>
+      <Route exact={true} path={"/"} component={Main} />
+      </Router>
+    </Wrapper>
   );
 }
 
