@@ -87,7 +87,6 @@ const Main = () => {
             name: 'Series',
             data: [speaking.value, writing.value, listening.value, reading.value, attendance.value],
         }]);
-        name.onClick();
     };
     const onImageChange = async (event) => {
         console.log('image change');
