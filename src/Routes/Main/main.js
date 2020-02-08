@@ -4,7 +4,7 @@ import Chart from "react-apexcharts";
 import useInput from "../../Hooks/useInput";
 
 const Container = styled.div`
-    margin: 0 20px;
+    margin: 0 60px;
 `;
 
 const InputBox = styled.div`
@@ -22,12 +22,16 @@ const Contents = styled.div`
     flex-direction: column;
     margin-left: 30px;
 `;
-
+const ContentBox = styled.div`
+    padding: 5px;
+    min-height: 100px;
+    height: 100%;
+    border: 1px solid black;
+`;
 const Category = styled.span`
     font-weight: 700;
     font-size: 20px;
     margin-right: 10px;
-    
 `;
 
 const Profile = styled.div`
@@ -36,7 +40,7 @@ const Profile = styled.div`
   background-position: center center;
   width: 185px;
     height: 280px;
-`
+`;
 
 const Main = () => {
     const [isInputBox, setIsInputBox] = useState(true);
@@ -45,6 +49,9 @@ const Main = () => {
     const age = useInput('');
     const address = useInput('');
     const phone = useInput('');
+    const strength = useInput('');
+    const weakness = useInput('');
+    const comments = useInput('');
     const speaking = useInput(0);
     const writing = useInput(0);
     const listening = useInput(0);
@@ -109,6 +116,14 @@ const Main = () => {
                 <input placeholder={'reading'} onChange={reading.onChange}></input>
                 <input placeholder={'attendance'} onChange={attendance.onChange}></input>
                 <button onClick={onClick}>클릭</button>
+                <div>
+                <div>장점</div>
+                <textarea style={{width:'500px',height:'100px'}} onChange={strength.onChange}></textarea>
+                <div>단점</div>
+                <textarea onChange={weakness.onChange}></textarea>
+                <div>코멘트</div>
+                <textarea onChange={comments.onChange}></textarea>
+                </div>
             </InputBox>
 
             <InfoBox>
@@ -141,6 +156,30 @@ const Main = () => {
                 </Contents>
             </InfoBox>
             <Chart options={options} series={series} type="radar" height={350} />
+            <div>
+                <Category style={{display:'block'}}>
+                    장점
+                </Category>
+                <ContentBox>
+                    {strength.value}
+                </ContentBox>
+            </div>
+            <div>
+                <Category>
+                    단점
+                </Category>
+                <ContentBox>
+                    {weakness.value}
+                </ContentBox>
+            </div>
+            <div>
+                <Category>
+                    코멘트
+                </Category>
+                <ContentBox>
+                    {comments.value}
+                </ContentBox>
+            </div>
         </Container>
     )
 }
