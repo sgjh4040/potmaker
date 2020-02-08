@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/potmaker/static/css/main.d1b05096.chunk.css",
-    "main.js": "/potmaker/static/js/main.b22a042e.chunk.js",
-    "main.js.map": "/potmaker/static/js/main.b22a042e.chunk.js.map",
+    "main.js": "/potmaker/static/js/main.a237ded1.chunk.js",
+    "main.js.map": "/potmaker/static/js/main.a237ded1.chunk.js.map",
     "runtime-main.js": "/potmaker/static/js/runtime-main.9fe1c7e5.js",
     "runtime-main.js.map": "/potmaker/static/js/runtime-main.9fe1c7e5.js.map",
-    "static/js/2.b226d89b.chunk.js": "/potmaker/static/js/2.b226d89b.chunk.js",
-    "static/js/2.b226d89b.chunk.js.map": "/potmaker/static/js/2.b226d89b.chunk.js.map",
+    "static/js/2.81368144.chunk.js": "/potmaker/static/js/2.81368144.chunk.js",
+    "static/js/2.81368144.chunk.js.map": "/potmaker/static/js/2.81368144.chunk.js.map",
     "index.html": "/potmaker/index.html",
-    "precache-manifest.42c9119bc3eca434c5c16460a4e851af.js": "/potmaker/precache-manifest.42c9119bc3eca434c5c16460a4e851af.js",
+    "precache-manifest.422bdb948979eb801f63cc5713fb8e89.js": "/potmaker/precache-manifest.422bdb948979eb801f63cc5713fb8e89.js",
     "service-worker.js": "/potmaker/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/potmaker/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.b226d89b.chunk.js.LICENSE.txt": "/potmaker/static/js/2.b226d89b.chunk.js.LICENSE.txt",
+    "static/js/2.81368144.chunk.js.LICENSE.txt": "/potmaker/static/js/2.81368144.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/potmaker/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.9fe1c7e5.js",
-    "static/js/2.b226d89b.chunk.js",
+    "static/js/2.81368144.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.b22a042e.chunk.js"
+    "static/js/main.a237ded1.chunk.js"
   ]
 }
