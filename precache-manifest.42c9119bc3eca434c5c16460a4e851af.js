@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3364c3a9b4cbc429346c9851ba634d53",
+    "revision": "067e0b63b6c82e5dc2a97d53e39a0733",
     "url": "/potmaker/index.html"
   },
   {
-    "revision": "98b300d58d2fdc250837",
+    "revision": "b979f66f37f4aca3c20f",
     "url": "/potmaker/static/css/main.d1b05096.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/potmaker/static/js/2.b226d89b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "98b300d58d2fdc250837",
-    "url": "/potmaker/static/js/main.26d63e7e.chunk.js"
+    "revision": "b979f66f37f4aca3c20f",
+    "url": "/potmaker/static/js/main.b22a042e.chunk.js"
   },
   {
     "revision": "7f9a665fb8882666f0f7",
