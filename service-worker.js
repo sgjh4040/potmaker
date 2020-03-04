@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/potmaker/precache-manifest.422bdb948979eb801f63cc5713fb8e89.js"
+  "/potmaker/precache-manifest.7a85b17d431e80a57274ac0dcd5a223b.js"
 );
 
 self.addEventListener('message', (event) => {
