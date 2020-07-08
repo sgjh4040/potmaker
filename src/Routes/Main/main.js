@@ -57,9 +57,10 @@ const Main = () => {
     const listening = useInput(0);
     const reading = useInput(0);
     const attendance = useInput(0);
+    const grammer = useInput(0);
     const [series, setSeries] = useState([{
         name: 'Series',
-        data: [80, 50, 30, 40, 100],
+        data: [80, 50, 30, 40, 100, 100],
     }])
     const [options, setoptions] = useState(
         {
@@ -71,7 +72,7 @@ const Main = () => {
                 text: '학생 포트폴리오'
             },
             xaxis: {
-                categories: ['Speaking', 'Writing', 'Listening', 'Reading', 'Attendance']
+                categories: ['Speaking', 'Writing', 'Listening', 'Reading', 'Vocabulary', 'Grammer']
             },
             yaxis: {
                 min: 0,
@@ -92,7 +93,7 @@ const Main = () => {
         console.log(speaking);
         setSeries([{
             name: 'Series',
-            data: [speaking.value, writing.value, listening.value, reading.value, attendance.value],
+            data: [speaking.value, writing.value, listening.value, reading.value, attendance.value, grammer.value],
         }]);
     };
     const onImageChange = async (event) => {
@@ -114,7 +115,8 @@ const Main = () => {
                 <input placeholder={'writing'} onChange={writing.onChange}></input>
                 <input placeholder={'listening'} onChange={listening.onChange}></input>
                 <input placeholder={'reading'} onChange={reading.onChange}></input>
-                <input placeholder={'attendance'} onChange={attendance.onChange}></input>
+                <input placeholder={'vocabulary'} onChange={attendance.onChange}></input>
+                <input placeholder={'grammer'} onChange={grammer.onChange}></input>
                 <button onClick={onClick}>클릭</button>
                 <div>
                 <div>장점</div>
