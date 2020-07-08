@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/potmaker/static/css/main.d1b05096.chunk.css",
-    "main.js": "/potmaker/static/js/main.fdaab887.chunk.js",
-    "main.js.map": "/potmaker/static/js/main.fdaab887.chunk.js.map",
+    "main.js": "/potmaker/static/js/main.5024b9d4.chunk.js",
+    "main.js.map": "/potmaker/static/js/main.5024b9d4.chunk.js.map",
     "runtime-main.js": "/potmaker/static/js/runtime-main.9fe1c7e5.js",
     "runtime-main.js.map": "/potmaker/static/js/runtime-main.9fe1c7e5.js.map",
     "static/js/2.81368144.chunk.js": "/potmaker/static/js/2.81368144.chunk.js",
     "static/js/2.81368144.chunk.js.map": "/potmaker/static/js/2.81368144.chunk.js.map",
     "index.html": "/potmaker/index.html",
-    "precache-manifest.7a85b17d431e80a57274ac0dcd5a223b.js": "/potmaker/precache-manifest.7a85b17d431e80a57274ac0dcd5a223b.js",
+    "precache-manifest.b1c3c794bd4afeb375d0b22c2deb4afb.js": "/potmaker/precache-manifest.b1c3c794bd4afeb375d0b22c2deb4afb.js",
     "service-worker.js": "/potmaker/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/potmaker/static/css/main.d1b05096.chunk.css.map",
     "static/js/2.81368144.chunk.js.LICENSE.txt": "/potmaker/static/js/2.81368144.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.9fe1c7e5.js",
     "static/js/2.81368144.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.fdaab887.chunk.js"
+    "static/js/main.5024b9d4.chunk.js"
   ]
 }
