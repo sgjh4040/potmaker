@@ -122,9 +122,9 @@ const Main = () => {
                 <div>장점</div>
                 <textarea style={{width:'500px',height:'100px'}} onChange={strength.onChange}></textarea>
                 <div>단점</div>
-                <textarea onChange={weakness.onChange}></textarea>
+                <textarea style={{width:'500px',height:'100px'}} onChange={weakness.onChange}></textarea>
                 <div>코멘트</div>
-                <textarea onChange={comments.onChange}></textarea>
+                <textarea style={{width:'500px',height:'100px'}} onChange={comments.onChange}></textarea>
                 </div>
             </InputBox>
 
